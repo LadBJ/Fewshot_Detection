@@ -40,7 +40,7 @@ def demo(cfgfile, weightfile):
 
 ############################################
 if __name__ == '__main__':
-    if len(sys.argv) == 3:
+    if len(sys.argv) == 3: #sys.argv是保存用户输入参数的列表，其中第一个元素是当前程序的地址。https://www.cnblogs.com/aland-1415/p/6613449.html
         cfgfile = sys.argv[1]
         weightfile = sys.argv[2]
         demo(cfgfile, weightfile)
