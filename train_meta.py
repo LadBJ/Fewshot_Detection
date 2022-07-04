@@ -1,4 +1,4 @@
-from __future__ import print_function
+from __future__ import print_function #“__future__”目的是把下一个版本的特性导入到当前版本，这样我们就可以在当前版本中测试一些新版本的特性，从而使得python未来版本的迁移更加容易
 import sys
 if len(sys.argv) != 5:
     print('Usage:')
